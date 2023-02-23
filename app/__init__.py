@@ -3,8 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 # init SQLAlchemy so we can use it later in our models
 app = Flask(__name__)
-db_path = 'D:\hackthediff-verycreative\instance\project.db'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+db_path
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///project.db"
 db = SQLAlchemy(app) # db intitialized here
 #db.init_app(app)
 
