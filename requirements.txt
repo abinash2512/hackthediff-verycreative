@@ -10,3 +10,4 @@ flask-auth==0.85
 SQLAlchemy==1.4
 flask_sqlalchemy==2.5.1
 flask-login==0.6.2
+gunicorn==20.0.2
